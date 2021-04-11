@@ -1,0 +1,17 @@
+{
+  "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+  ]
+  //使用 babel-plugin-import 的 style 配置来引入样式，需要将配置值从 'style': 'css' 改为 'style': true，这样会引入 less 文件。
+}

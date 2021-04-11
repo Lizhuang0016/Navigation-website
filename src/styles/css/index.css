@@ -1,0 +1,252 @@
+@media screen and (min-width: 576px){
+  .ant-layout-header .logo {
+    width: 120px;
+    height: 36px;
+    background: url('~@/../../public/images/logo/logo.png');
+    border-radius: 6px;
+    margin: 16px 30px 16px 30px;
+    float: left;
+    background-size: cover;
+    position: relative;
+  }
+  .ant-layout-header .search {
+    color: blanchedalmond;
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    float: left;
+    line-height: 64px;
+    /* text-align: center; */
+    padding-top: 12px;
+    margin-left: 31%;
+  }
+  .ant-layout-header .search .search-select {
+    width: 80px;
+    position: absolute;
+    right: 85px;
+    top: 19px;
+    border: 0px solid #d9d9d9;
+    z-index: 1;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    border: 0px solid #fff;
+    border-color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-color: #fff;
+    border-right-width: 0px !important;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgb(24 144 255/20%);
+  }
+  .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: #fff;
+    border-right-width: 0px !important;
+  }
+  .info-line {
+    line-height: 32px;
+    margin: 5px;
+  }
+  .info-line .info-label {
+    float: left;
+    width: 100px;
+    text-align: right;
+  }
+  .info-line .info-value {
+    height: 32px;
+  }
+  .search-results {
+    /* height:650px; */
+    width: 1000px;
+  }
+  .ant-layout-sider {
+    flex: 0 0 180px!important;
+    max-width: 180px!important;
+    min-width: 180px!important;
+    width: 180px!important;
+    position: relative;
+    background: #f0f2f5;
+    transition: all 0.2s;
+    padding: 24px 24px 0 24px;
+  }
+  .ant-layout-sider-trigger {
+    position: fixed;
+    margin-left: -24px;
+    bottom: 0;
+    z-index: 1;
+    color: black;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .ant-anchor {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 18px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    padding-left: 2px;
+    text-align: center;
+  }
+  .ant-input-search-large .ant-input-search-button {
+    height: 40px;
+    width: 80px;
+  }
+  .ant-layout-footer {
+    padding: 24px 50px 0 50px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    background: #001829;
+    margin-top: 20px;
+  }
+  .ant-anchor-wrapper {
+    margin-left: -4px;
+    padding-left: 4px;
+    overflow: auto;
+    background-color: #f0f2f5;
+  }
+  .ant-anchor-ink::before {
+    position: relative;
+    display: block;
+    width: 2px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    content: ' ';
+  }
+  .ant-affix {
+    position: fixed;
+    z-index: 10;
+    bottom: auto;
+    top: auto;
+  }
+  .anchor-box {
+    /* position:fixed; */
+  }
+  .anchor-fixed {
+    position: fixed;
+    top: 8px;
+  }
+  .anchor-absolute {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+  }
+}
+
+/* 手机端相关样式 */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .ant-layout-header {
+    height: 64px;
+    padding: 0 0px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 64px;
+    background: #001529;
+  }
+  .ant-layout-header .logo {
+    width: 120px;
+    height: 36px;
+    background: url('~@/../../public/images/logo/logo.png');
+    border-radius: 6px;
+    margin: 16px 30px 16px 30px;
+    float: left;
+    background-size: cover;
+    position: relative;
+  }
+  .ant-input-search-large .ant-input-search-button {
+    height: 40px;
+    width: 60px;
+  }
+  .ant-btn-lg {
+    height: 40px;
+    padding: 6.4px 4px;
+    font-size: 16px;
+    border-radius: 2px;
+  }
+  .ant-layout-header .search {
+    color: blanchedalmond;
+    position: relative;
+    width: 88%;
+    height: 64px;
+    float: left;
+    line-height: 64px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 6%;
+    border-radius: 10px;
+  }
+  .ant-layout-header .search .search-select {
+    width: 70px;
+    position: absolute;
+    right: 62px;
+    top: 19px;
+    border: 0px solid #d9d9d9;
+    z-index: 1;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    border: 0px solid #fff;
+    border-color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-color: #fff;
+    border-right-width: 0px !important;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgb(24 144 255/20%);
+  }
+  .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: #fff;
+    border-right-width: 0px !important;
+  }
+  .ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-radius: 8px 0 0 8px;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0 8px 8px 0;
+}
+  .ant-input-group > .ant-input-affix-wrapper:not(:last-child) .ant-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    max-width: 180px;
+  }
+  .ant-layout-sider {
+    flex: 0 0 0px!important;
+    max-width: 0px!important;
+    min-width: 0px!important;
+    width: 0px!important;
+    position: relative;
+    background: #f0f2f5;
+    transition: all 0.2s;
+    padding: 24px 0px 0 0px;
+  }
+  .ant-layout.ant-layout-has-sider {
+    flex-direction: row;
+    padding-top: 47px;
+}
+  .ant-layout-footer {
+    padding: 24px 50px 0 50px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    background: #001829;
+    margin-top: 20px;
+  }
+}

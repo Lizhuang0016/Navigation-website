@@ -1,0 +1,145 @@
+ol,
+ul {
+  list-style-type: none;
+}
+#catalog section ul,
+#website-map section ul {
+  transition: background-color 0.5s;
+}
+.type-title {
+  height: 44px;
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 30px;
+  border-bottom: 1px solid #f1f4f9;
+}
+.website-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-bottom: 20px; */
+  /* padding: 0 20px; */
+  padding: 13px 10px;
+  margin-bottom: 0;
+}
+
+.website-list li {
+  width: calc(100% / 6);
+  /* border-left: 1px dotted #e8e8e8; */
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  /* padding: 20px; */
+  padding: 0 5px;
+  /* margin-bottom: 5px; */
+  position: relative;
+  border-radius: 10px;
+}
+.website-list li:hover {
+  background-color: #f2f8fd;
+  transition: background-color 0.5s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .website-list li {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .website-list li {
+    width: 33% !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1216px) {
+  .website-list li {
+    width: 25% !important;
+  }
+}
+@media screen and (min-width: 1216px) and (max-width: 1432px) {
+  .website-list li {
+    width: 20% !important;
+  }
+}
+.website-list li .item-card {
+  display: flex;
+  padding: 10px 16px;
+  width: 100%;
+  min-height: 82px;
+  justify-content: space-between;
+}
+.website-list li .item-card .icons {
+  width: 100%;
+  max-width: 30px;
+  margin-right: 4px;
+}
+.website-list li .item-card .icons img {
+  width: 30px;
+  height: 30px;
+}
+.website-list li .item-card .contents {
+  width: calc(100% - 30px);
+}
+.website-list li .item-card .contents p:first-child {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.website-list .description {
+  margin: 1px 0px 0px;
+  color: #a2a2a2;
+  line-height: 1.5;
+  font-size: 12px;
+  display: none;
+  text-align: justify !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.title-active {
+  color: #ee5219 !important;
+}
+.des-active {
+  color: black !important;
+}
+
+.ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin: 0 0 0 0;
+  padding-left: 20px;
+}
+.ant-tabs-tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 32px 0 0;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #1890ff;
+  font-weight: 700;
+}
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: #1890ff;
+  pointer-events: none;
+}
+.ad-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+/* 手机端相关样式 */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+}

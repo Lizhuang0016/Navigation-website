@@ -1,0 +1,97 @@
+@media screen and (min-width: 576px){
+  .footer-top {
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    padding: 0 0 0 20%;
+    color: #fff;
+  }
+  .footer-bottom {
+    color: #818394;
+    margin: 0;
+  }
+  .footer-bottom p {
+    margin: 0;
+  }
+  .footer-left {
+    width: 30%;
+    height: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .footer-middle {
+    width: 30%; 
+    height: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .footer-right {
+    width: 30%;
+    height: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .footer-title {
+  }
+  .footer-content {
+    font-size: 14px;
+    width: 60%;
+    color: #818394;
+  }
+  .footer-content img {
+    width: 150px;
+    height: auto;
+    display: block;
+  }
+}
+/* 手机端相关样式 */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .footer-top {
+    border-bottom: 1px solid #d9d9d9;
+    /* display: -webkit-box; */
+    /* display: flex; */
+    /* padding: 0 0 0 20%; */
+    color: #fff;
+    height: 295px;
+  }
+  .footer-left {
+    width: 90%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .footer-content {
+    font-size: 12px;
+    width: 100%;
+    color: #818394;
+  }
+  .footer-content img{
+    width: 100%;
+  }
+  .footer-middle {
+    width: 48%;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 3%;
+    float: left;
+  }
+  .footer-right {
+    width: 48%;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    float: left;
+  }
+  .footer-bottom {
+    color: #818394;
+    margin: 0;
+    clear: both;
+    font-size: 12px;
+  }
+}
