@@ -47,7 +47,7 @@ export default class FooterContainer extends React.Component {
             </div>
           </div>
           <div className="footer-right">
-            <div className="footer-title">卖家群</div>
+            <div className="footer-title">TikTok交流群</div>
             <div className="footer-content">
             <img src={this.state.mjqImg} alt=""/>
             {/* <img src="../../public/images/ads/weixin.jpg" alt=""/> */}

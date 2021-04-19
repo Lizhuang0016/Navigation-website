@@ -35,8 +35,8 @@ export default class App extends React.Component {
       collapsed: false,
       searchEngine: 'baidu',
       currAnchor: '#components-navigation',
-      adUrl: 'http://www.baidu.com',
-      adImgName: 'ad2.png',
+      adUrl: 'http://www.yishangjiang.com/',
+      adImgName: 'clientad.jpg',
       navigationList: ['officialPlatform', 'videoDownLoad', 'resourcesBuy', 'accountAnalysis', 'pubaccountForum', 'independentSites', 'influencerMarket', 'deployingTools', 'sourceSite', 'otherTools'],
       linkData: [],
       comToolsData: [
@@ -62,6 +62,15 @@ export default class App extends React.Component {
         })
       }
     })
+    if(document.body.clientWidth<576){
+      this.setState({
+        adImgName:"mobilead.jpg"
+      })
+    }else{
+      this.setState({
+        adImgName:"clientad.jpg"
+      })
+    }
   }
   componentDidMount() {
     window.addEventListener('scroll', this.debounce(this.bindHandleScroll, 1))

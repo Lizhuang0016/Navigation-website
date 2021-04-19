@@ -27,7 +27,7 @@ export default class AdvertiseContainer extends React.Component {
     //   })
     // })
     
-    let reqSvgs = require.context('../../public/images/ads/', true, /\.png$/)
+    let reqSvgs = require.context('../../public/images/ads/', true, /\.(jpg|jpeg|png|bmp)$/)
     let image = reqSvgs('./' + this.props.adImgName)
     this.setState({
       adUrl: this.props.adUrl,
